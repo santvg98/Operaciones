@@ -1,5 +1,3 @@
-alert("bienvenido");
-
 function sumar() 
 {
             
