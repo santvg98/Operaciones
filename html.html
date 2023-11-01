@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Calculadora de Suma</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Calculadora de Suma</h1>
@@ -13,20 +14,6 @@
 
     <p>Resultado: <span id="resultado"></span></p>
 
-    <script>
-        function sumar() {
-            
-            var num1 = parseFloat(document.getElementById("numero1").value);
-            var num2 = parseFloat(document.getElementById("numero2").value);
-
-          
-            if (!isNaN(num1) && !isNaN(num2)) {
-                var suma = num1 + num2;
-                document.getElementById("resultado").innerHTML = suma;
-            } else {
-                document.getElementById("resultado").innerHTML = "Por favor, ingresa números válidos.";
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
