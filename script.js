@@ -29,3 +29,4 @@ function calcular() {
         document.getElementById("resultado").innerHTML = "Por favor, ingresa números válidos.";
     }
 }
+alert("esto esta funcionando"); 
