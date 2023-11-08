@@ -7,7 +7,7 @@ function sumar()
   
     if (!isNaN(num1) && !isNaN(num2)) 
     {
-        var suma = num1 * num2;
+        var suma = num1 / num2;
         document.getElementById("resultado").innerHTML = suma;
     } 
     else 
